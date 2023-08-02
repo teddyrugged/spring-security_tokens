@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Role {
+public class  Role {
 
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
@@ -17,7 +17,7 @@ public class Role {
         private String firstname;
         private String middle_name;
         private String lastname;
-        private String username;
+//        private String username;
 
     }
 
