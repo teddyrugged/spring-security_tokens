@@ -13,9 +13,10 @@ import java.util.Collection;
 public class User {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String firstname;
-    private String middle_name;
-    private String lastname;
+//    private String firstname;
+//    private String middle_name;
+//    private String lastname;
+    private String name;
     private String username;
     private String email;
     private String password;

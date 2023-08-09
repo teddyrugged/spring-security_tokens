@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepo extends JpaRepository<Role,Long> {
 
-//    trying to use fullname in place of name for name as i dt want to use different name.
-    Role findByNameEqualsIgnoreCase(String fullName);
+//    trying to use full name in place of name for name as i dt want to use different name.
+//    Role findByNameEqualsIgnoreCase(String fullName);
+    Role findByName(String name);
 }

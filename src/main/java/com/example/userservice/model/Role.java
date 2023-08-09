@@ -14,10 +14,11 @@ public class  Role {
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
         private Long id;
-        private String firstname;
-        private String middle_name;
-        private String lastname;
-//        private String username;
+//        I will want to put in three names
+//        private String firstname;
+//        private String middle_name;
+//        private String lastname;
+        private String name;
 
     }
 
